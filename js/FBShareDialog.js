@@ -59,7 +59,11 @@ type ShareDialogModeIOS =
   /**
    * The native dialog is used.
    */
-  | 'native';
+  | 'native'
+  // --- custom
+  | 'feedBrowser'
+  | 'feedWeb'
+  | 'shareSheet';
 
 module.exports = {
   /**
